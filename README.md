@@ -1,2 +1,6 @@
 # Individual_Project
 Explore GDP relationship with access to electricity and energy use
+
+My project is intended to analyze the relationship between energy use and GDP. I wanted to explore if there is an apparent linear relationship with GDP, and if so, how it varied across the time. I collected access to electricity and GDP data for all the countries from the World Bank. I plotted the data in different ways to analyze the relationship between these two variables. I was expecting that countries with higher national GDP would have more access to electricity.  This means that the two variables should have a positive relationship. However after plotting it I was unable to see a clear pattern that defines the trend. To further investigate the issue I added energy use per GDP unit to my data set to obtain more insight into the relationship between energy use and GDP.  
+
+I wrote all my functions to pull and analyze the data in python. Then I import ggplot in Python and used it to create the line graphs. My python code also generated a csv file called df.csv, which was used to read in R to create the world heat maps. So I was able to use R plotting functions within python to see the graphs. In addition to that I wrote separate code in R for plotting as supplements to what I had created in python. 
