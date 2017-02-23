@@ -2,7 +2,12 @@
 '''
 Created on Thu Oct 29 18:57:54 2015
 
-@author: 
+@author: Wendy Zhang
+
+This file contains the functions to select 5 indicators from the World Bank 
+Education data, run k-means cluster and MDS analyses, and create csv files for 
+mapping the data
+
 '''
 
 from bs4 import BeautifulSoup as bs
